@@ -13,7 +13,7 @@ from Funciones import PlayTimeGenre,UserForGenre,UsersNotRecommend,sentiment_ana
 
 #   Cargamos los datos para las funciones a las variables
 df_steam_games = pd.read_csv('steam_games.csv')
-df_items = pd.read_csv('items.csv')
+df_items = pd.read_csv('items_new.csv')
 df_reviews = pd.read_csv('reviews.csv')
 games_model = pd.read_csv('games_model.csv')
 
